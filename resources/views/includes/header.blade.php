@@ -11,8 +11,11 @@
         </button>
         <a class="navbar-brand" href="#">Brand</a>
       </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{{ route('logout') }}">Logout</a></li>
+        </ul>
+        </li>
+      </ul>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
       </div><!-- /.navbar-collapse -->
