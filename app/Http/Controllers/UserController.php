@@ -52,7 +52,10 @@ public function getLogout(){
   return redirect()->route('welcome');
 }
 
+public function getAccount(){
+  return view('account', ['user' => Auth::user()]);
 
+}
 
 }
 
