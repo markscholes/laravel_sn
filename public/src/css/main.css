@@ -11,7 +11,7 @@ body{
   margin-bottom: 20px;
 }
 
-.posts .posts {
+.posts .post{
 
   background-color: #fff;
   padding-left: 10px;
@@ -20,7 +20,7 @@ body{
   margin-bottom: 2px;
   }
 
-.posts .posts .info {
+.posts .post .info {
   color: #aaa;
   font-style: italic;
   align-content: flex-end;
